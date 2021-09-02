@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+body {
+    color: #9b9b9bfd;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.web{
+    background-color: rgb(0, 124, 173);
+    color: white;
+    padding: 30px;
+    height: 200px;
+}
+.web .info{
+    float: left;
+    width: 350px;
+    margin: 0px 50px;
+}
+.web .info h4, .web .link h4, .web .social_network h4{
+    margin-bottom: 30px;
+}
+.web .link{
+    float: left;
+    width: 350px;
+    margin-right:50px;
+}
+
+.web .social_network li{
+    float: left;
+    margin-right: 10px;
+}
+.web .social_network li a i{
+    padding: 20px;
+    text-align: center;
+}
+.web .social_network .face{
+    background-color: rgb(0, 91, 151);
+}
+.web .social_network .gg{
+    background-color: rgb(211, 0, 0);
+}
+.web .social_network .twi{
+    background-color: rgb(0, 0, 75);
+}
+.web .social_network .in{
+    background-color: rgb(0, 0, 131);
+}
+.web p.cop{
+    border-top: 1px solid blanchedalmond;
+    text-align: center;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 350px;
+    padding-top: 30px;
+}
+.web .hum{
+    padding-bottom: 50px;
+}

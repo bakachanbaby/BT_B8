@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+body {
+    color: #acacacfd;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.web{
+    margin: 30px;
+    width: 1200px;   
+}
+.web .logo{
+    float: left;
+    width: 500px;
+    margin-right: 20px;
+}
+.web .webR{
+    float: right;
+    width:600px;
+}
+.web .webR .content h2{
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    position: relative;
+    margin-bottom: 10px;
+}
+.web .webR .content hr{
+    width: 10%;
+    height: 1px;
+    background-color: aquamarine;
+    margin-bottom: 30px;
+    /* align-content: flex-start; */
+
+}
+.web .webR .content p{
+    margin-bottom: 30px;
+}
+.web .webR .form h2{
+    font-weight: 100;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.web .webR .form .list li{
+    float: left;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.web .webR .form .list li i{
+    color: rgb(0, 160, 160);
+}

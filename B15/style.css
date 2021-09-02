@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+body {
+    color: #9b9b9bfd;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.web{
+    margin: 30px;
+    width: 1200px;
+}
+.web h1{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.web .list li{
+    background-color: bisque;
+    margin-bottom: 30px;
+    /* height: 100px; */
+}
+.web .list li .name{
+    margin: 10px;
+}
+.web .list li .name strong{
+    color: cadetblue;
+}
+.web .list li .image{
+    float: right;
+}
+.web .list li .image i{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid chocolate;
+    font-size: 20px;
+}
+.web .list li .time{
+    font-size: 14px;
+    margin: 10px;
+}
+.web .list li .text{
+    margin: 10px;
+    
+}

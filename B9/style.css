@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+body {
+    color: #a1a1a1fd;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.web{
+    margin: 30px;
+    width: 1200px;
+}
+.web .head h3{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.web .head p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.web .form{
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    border: 1px solid rgb(214, 214, 214);
+    width: 900px;
+    margin-left: 150px;
+}
+.web .form p input{
+    height: 30px;
+    width: 400px;
+    margin: 10px 10px;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 0 0 0 10px;
+}
+.web .form select{
+    height: 35px;
+    width: 412px;
+    margin: 10px 10px 30px;
+    padding: 0 0 0 10px;
+
+    border: 1px solid rgb(214, 214, 214);
+}
+.web .form p textarea{
+    height: 200px;
+    width: 835px;
+    padding: 10px 0 0 10px;
+    border: 1px solid rgb(214, 214, 214);
+}
+.web .form .sub button{
+    height: 35px;
+    width: 848px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    transition: 0.3s all;
+    margin-bottom: 30px;
+}
+.web .form .sub button:hover{
+    background-color: cadetblue;
+}

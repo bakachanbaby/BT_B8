@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+body {
+    color: #9b9b9bfd;
+    background-color: #e6e6e6fd;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.web{
+    margin: 30px;
+    width: 1200px;
+}
+.web h1{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+.web  hr{
+    width: 10%;
+    text-align: center;
+    margin-left: 550px;
+    height: 1px;
+    background-color: blue;
+    margin-bottom: 50px;
+}
+
+.web .content .list li{
+    float: left;
+    width: 330px;
+    margin-left: 30px;
+}
+.web .content .list li .image{
+    position: absolute;
+}
+.web .content .list li .image img{
+    border-radius: 50%;
+}
+.web .content .list li .text .info, .web .content .list li .text .name{
+    padding-left: 90px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.web .content .list li .text .name{
+    font-weight: 700;
+    
+}
